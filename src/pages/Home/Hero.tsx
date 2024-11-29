@@ -1,10 +1,8 @@
-import React from 'react'
-
 type Props = {}
 
 const Hero = ({}: Props) => {
   return (
-    <section className='py-44'>
+    <section className='py-24 md:py-44'>
         <div className='flex gap-2 mb-4'>
           <img 
             className='w-24 rounded-full'
