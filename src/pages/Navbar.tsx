@@ -31,8 +31,8 @@ const NavLink = ({to, children}: NavLinkProps) => {
 const Navbar = ({}: Props) => {
   const {isDarkMode, toggleTheme} = useTheme()  
   return (
-    <div>
-        <header className="px-5 py-4 shadow-md dark:shadow-md dark:shadow-yellow-100 flex justify-between items-center max-w-7xl m-auto">
+    <div className="shadow-md dark:shadow-sm dark:shadow-yellow-100">
+        <header className="px-5 py-4 flex justify-between items-center max-w-5xl m-auto">
             <div className="w-20">
                 EL LOGAZO
             </div>
