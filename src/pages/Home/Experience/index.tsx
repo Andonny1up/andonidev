@@ -7,7 +7,7 @@ type Props = {}
 const Experience = (props: Props) => {
     const {data} = useExperience()
   return (
-    <section>
+    <section className="pb-12">
         <h2 className="text-3xl flex items-center gap-2">
             <PiSuitcaseSimple/>
             Experiencia laboral
