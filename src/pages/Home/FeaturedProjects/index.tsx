@@ -1,5 +1,5 @@
 import { FaCode } from "react-icons/fa6";
-import CardProject from "./CardProject";
+import CardProject from "../../../components/CardProject";
 import useFeaturedProject from "./useFeaturedProject";
 
 type Props = {}

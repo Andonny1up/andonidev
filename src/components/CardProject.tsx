@@ -1,7 +1,7 @@
-import BtnProjects from "../../../components/BtnProjects"
+import BtnProjects from "./BtnProjects"
 import { FaGithub } from "react-icons/fa";
 import { IoIosLink } from "react-icons/io";
-import BadgeTecno from "../../../components/BadgeTecno";
+import BadgeTecno from "./BadgeTecno";
 
 type Props = {
     title: string;
