@@ -3,6 +3,7 @@ import useTheme from "../hooks/useTheme"
 import { IoSunny, IoMoonSharp } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { NavLink as RouterLink } from "react-router";
+import { useTranslation } from "react-i18next";
 
 type Props = {}
 
@@ -28,6 +29,13 @@ const NavLink = ({to, children}: NavLinkProps) => {
 
 const Navbar = ({}: Props) => {
   const {isDarkMode, toggleTheme} = useTheme()  
+  const { i18n } = useTranslation()
+
+  const toggleLanguage = () => {
+      const nextLanguage = i18n.language === 'es' ? 'en' : 'es';
+      i18n.changeLanguage(nextLanguage);
+  }
+
   return (
     <div className="fixed z-50 w-full bg-white dark:bg-slate-900/95 shadow-md dark:shadow-sm dark:shadow-yellow-100/50">
         <header className="px-5 py-4 flex justify-between items-center max-w-5xl m-auto">
@@ -47,7 +55,13 @@ const Navbar = ({}: Props) => {
                 </nav>
                 
             </div>
-            <div className="hidden sm:block w-20 text-end">
+            <div className="hidden sm:flex gap-3 justify-end">
+                <button
+                    onClick={toggleLanguage}
+                    className="px-3 py-2 text-sm font-bold text-gray-800 dark:text-white rounded-full bg-slate-50 dark:bg-slate-800 uppercase"
+                >
+                    {i18n.language}
+                </button>
                 <button
                     onClick={toggleTheme}
                     className="px-2 py-2 text-gray-800 dark:text-white rounded-full bg-slate-50 dark:bg-slate-800"
