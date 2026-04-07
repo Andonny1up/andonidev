@@ -21,7 +21,6 @@ const BadgeTecno = ({type}: Props) => {
                     label="React"
                 />
             )
-            break
         case 'Tailwind CSS': 
             return (
                 <Badge 
@@ -29,7 +28,6 @@ const BadgeTecno = ({type}: Props) => {
                         label="Tailwind CSS"
                     />
             )
-            break
         case 'Django': 
             return (
                 <Badge 
@@ -37,7 +35,6 @@ const BadgeTecno = ({type}: Props) => {
                         label="Django"
                     />
             )
-            break
         case 'Python': 
             return (
                 <Badge 
@@ -45,7 +42,6 @@ const BadgeTecno = ({type}: Props) => {
                         label="Python"
                     />
             )
-            break
         default:
             return (
                 <Badge 
@@ -53,7 +49,6 @@ const BadgeTecno = ({type}: Props) => {
                         label={type}
                     />
             )
-            break
     }
         
 }

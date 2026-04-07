@@ -13,8 +13,6 @@ type NavLinkProps = {
 
 const Links = [
     {uri: "/", label: "Inicio" },
-    {uri: "/porfolio", label: "Portafolio" },
-    {uri: "/quien-es-andoni-barba-dev", label: "Sobre mí"}
 ]
 
 const NavLink = ({to, children}: NavLinkProps) => {
@@ -59,7 +57,7 @@ const Navbar = ({}: Props) => {
             </div>
             <div className="sm:hidden text-end">
                 <button
-                    onClick={toggleTheme}
+                    onClick={() => console.log('TODO: Implementar estado para abrir menú móvil')}
                     style={{fontSize: '25px'}}
                 >
                     <RxHamburgerMenu />
