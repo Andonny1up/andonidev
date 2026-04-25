@@ -10,7 +10,7 @@ const Layout = ({children}: Props) => {
   return (
     <div className="min-h-screen bg-white dark:bg-slate-900 text-gray-800 dark:text-white">
         <Navbar/>
-        <div className="max-w-5xl m-auto px-5">
+        <div className="max-w-5xl m-auto px-5 pb-24 pt-8 sm:pb-8 sm:pt-24">
             {children ?? <Outlet/>}
         </div>
     </div>
