@@ -8,14 +8,19 @@ const Hero = () => {
   return (
     <section className='pb-40 pt-20'>
         <div className='flex items-center gap-4 mb-8'>
-          <img 
-            className='w-28 h-28 rounded-full object-cover border-4 border-white dark:border-slate-800 shadow-lg transition-transform hover:scale-105'
-            src="https://github.com/Andonny1up.png"
-            alt="Andoni Barba Noe" 
-          />
+          {/* Contenedor del efecto de luz giratoria */}
+          <div className="relative flex items-center justify-center p-[3px] rounded-full overflow-hidden shadow-lg transition-transform hover:scale-105">
+            {/* Gradiente animado */}
+            <div className="absolute w-[150%] h-[150%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(transparent_60%,#3b82f6)] dark:bg-[conic-gradient(transparent_60%,#facc15)]" />
+            <img 
+              className='relative z-10 w-28 h-28 rounded-full object-cover border-4 border-white dark:border-slate-950'
+              src="https://github.com/Andonny1up.png"
+              alt="Andoni Barba Noe" 
+            />
+          </div>
           <div className='flex items-center'>
             <a
-              href="https://linkedin.com/in/tu-perfil"
+              href="https://www.linkedin.com/in/andoni-barba-noe-894460184/"
               target="_blank"
               rel="noopener noreferrer"
               className='flex items-center gap-2 bg-emerald-100/80 border border-emerald-300 text-emerald-800 py-1.5 px-3 rounded-full text-sm font-medium dark:bg-emerald-900/30 dark:border-emerald-800 dark:text-emerald-300 transition-colors hover:bg-emerald-200/80 dark:hover:bg-emerald-900/50'
@@ -28,11 +33,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className='flex items-center gap-4 my-8'>
-          <BtnIcon link="https://linkedin.com/in/tu-perfil" label="LinkedIn"><FaLinkedin size={24} /></BtnIcon>
-          <BtnIcon link="https://github.com/Andonny1up" label="GitHub"><FaGithub size={24} /></BtnIcon>
-          <BtnIcon link="https://instagram.com/tu-perfil" label="Instagram"><FaInstagram size={24} /></BtnIcon>
-        </div>
+        
         <div className='max-w-3xl'>
           <h1 className='text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900 dark:text-white mb-6'>
             {t('hero.greeting')}
@@ -41,7 +42,11 @@ const Hero = () => {
           {t('hero.description_1')} <span className='text-blue-500 font-semibold dark:text-yellow-400'>{t('hero.role')}</span> 
           {t('hero.description_2')}
           </p>
-          
+          <div className='flex items-center gap-4 my-8'>
+            <BtnIcon link="https://www.linkedin.com/in/andoni-barba-noe-894460184/" label="LinkedIn"><FaLinkedin size={24} /></BtnIcon>
+            <BtnIcon link="https://github.com/Andonny1up" label="GitHub"><FaGithub size={24} /></BtnIcon>
+            <BtnIcon link="https://www.instagram.com/andonibarba" label="Instagram"><FaInstagram size={24} /></BtnIcon>
+          </div>
           <div className='flex flex-wrap gap-4'>
             <a 
               href="mailto:andonibarba@codigosimple.dev" 
