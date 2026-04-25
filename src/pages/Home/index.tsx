@@ -2,9 +2,7 @@ import Experience from "./Experience"
 import FeaturedProjects from "./FeaturedProjects"
 import Hero from "./Hero"
 
-type Props = {}
-
-const Home = ({}: Props) => {
+const Home = () => {
   return (
     <>
       <Hero/>

@@ -7,5 +7,59 @@
     "description_2": ", con más de 3 años de experiencia desarrollando páginas web para todo tipo de negocio.",
     "contact_me": "Contáctame",
     "view_cv": "Ver CV"
+  },
+  "experience": {
+    "title": "Experiencia laboral",
+    "jobs": [
+      {
+        "id": "7",
+        "job": "Docente de Ingeniería de Sistemas Informáticos",
+        "company": "Universidad del Valle (BO) - Presencial",
+        "time": "feb. 2025 - actualidad",
+        "description": "Docente titular de la asignatura Administración de Sistemas Operativos."
+      },
+      {
+        "id": "6",
+        "job": "Desarrollador Web Full Stack y Soporte Técnico",
+        "company": "Tilupay. - En remoto",
+        "time": "ene. 2025 - actualidad",
+        "description": "Desarrollo y mantenimiento de aplicaciones web utilizando React, Ruby on Rails y Node.js, además de brindar soporte técnico remoto a clientes."
+      },
+      {
+        "id": "5",
+        "job": "Analista I - Desarrollador de Sistemas Informáticos",
+        "company": "GAB Beni - Presencial",
+        "time": "ene. 2025 - abr. 2026",
+        "description": "Desarrollo Full Stack con Django, Laravel, Node.js y React. Gestión de bases de datos MySQL y PostgreSQL. Administración y despliegue en servidores Linux utilizando Docker y Coolify."
+      },
+      {
+        "id": "4",
+        "job": "Desarrollador Web Full Stack",
+        "company": "TROYA SRL. - En remoto",
+        "time": "ene. 2025 - ene. 2026",
+        "description": "Desarrollo de soluciones web y automatizaciones integrando React, Ruby on Rails, Node.js y la API de WhatsApp Business (WABA)."
+      },
+      {
+        "id": "3",
+        "job": "Analista II - Desarrollador de Sistemas Informáticos",
+        "company": "GAB Beni - Presencial",
+        "time": "ene. 2024 - dic. 2024",
+        "description": "Desarrollo Full Stack implementando soluciones con Django y Laravel. Diseño y administración de bases de datos relacionales (MySQL, PostgreSQL) y gestión de servidores Linux."
+      },
+      {
+        "id": "2",
+        "job": "Técnico II - Desarrollador de Software",
+        "company": "GAB Beni - Presencial",
+        "time": "sep. 2023 - dic. 2023",
+        "description": "Desarrollo de aplicaciones con Python y Django, además de mantenimiento y optimización de sitios web basados en PHP y MySQL."
+      },
+      {
+        "id": "1",
+        "job": "Desarrollador de Software",
+        "company": "Autónomo",
+        "time": "2022 - 2023",
+        "description": "Desarrollo frontend de páginas web estáticas (HTML, CSS, JavaScript) y gestión de sitios con WordPress. Creación de aplicaciones de escritorio multiplataforma utilizando C#."
+      }
+    ]
   }
 }

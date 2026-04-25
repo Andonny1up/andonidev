@@ -7,5 +7,59 @@
     "description_2": ", with over 3 years of experience developing websites for all types of businesses.",
     "contact_me": "Contact me",
     "view_cv": "View CV"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": [
+      {
+        "id": "7",
+        "job": "IT Systems Engineering Professor",
+        "company": "Universidad del Valle (BO) - On-site",
+        "time": "Feb 2025 - Present",
+        "description": "Professor for the Operating Systems Administration course."
+      },
+      {
+        "id": "6",
+        "job": "Full Stack Web Developer & Technical Support",
+        "company": "Tilupay. - Remote",
+        "time": "Jan 2025 - Present",
+        "description": "Development and maintenance of web applications using React, Ruby on Rails, and Node.js, along with providing remote technical support."
+      },
+      {
+        "id": "5",
+        "job": "Analyst I - IT Systems Developer",
+        "company": "GAB Beni - On-site",
+        "time": "Jan 2025 - Apr 2026",
+        "description": "Full Stack development with Django, Laravel, Node.js, and React. Management of MySQL and PostgreSQL databases. Administration and deployment on Linux servers using Docker and Coolify."
+      },
+      {
+        "id": "4",
+        "job": "Full Stack Web Developer",
+        "company": "TROYA SRL. - Remote",
+        "time": "Jan 2025 - Jan 2026",
+        "description": "Development of web solutions and automations integrating React, Ruby on Rails, Node.js, and the WhatsApp Business API (WABA)."
+      },
+      {
+        "id": "3",
+        "job": "Analyst II - IT Systems Developer",
+        "company": "GAB Beni - On-site",
+        "time": "Jan 2024 - Dec 2024",
+        "description": "Full Stack development implementing solutions with Django and Laravel. Design and administration of relational databases (MySQL, PostgreSQL), and Linux server management."
+      },
+      {
+        "id": "2",
+        "job": "Technician II - Software Developer",
+        "company": "GAB Beni - On-site",
+        "time": "Sep 2023 - Dec 2023",
+        "description": "Application development with Python and Django, along with maintenance and optimization of PHP and MySQL-based websites."
+      },
+      {
+        "id": "1",
+        "job": "Freelance Software Developer",
+        "company": "Self-employed",
+        "time": "2022 - 2023",
+        "description": "Frontend development of static websites (HTML, CSS, JavaScript) and WordPress management. Creation of desktop applications using C#."
+      }
+    ]
   }
 }
