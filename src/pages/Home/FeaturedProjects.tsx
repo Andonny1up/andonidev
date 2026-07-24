@@ -1,10 +1,19 @@
 import { FaCode } from "react-icons/fa6";
-import CardProject from "../../../components/CardProject";
+import CardProject from "../../components/CardProject";
 import { useTranslation } from "react-i18next";
 
+interface Project {
+  id: number,
+  title: string,
+  img: string,
+  technologies: string[],
+  description: string,
+  code_url: string,
+  preview_url: string
+}
 const FeaturedProjects = () => {
   const { t } = useTranslation();
-  const data = t('featured_projects.projects', { returnObjects: true })
+  const data = t('featured_projects.projects', { returnObjects: true }) as Project[];
 
   return (
     <div>
