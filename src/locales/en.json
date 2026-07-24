@@ -8,22 +8,73 @@
     "contact_me": "Contact me",
     "view_cv": "View CV"
   },
+  "featured_projects": {
+    "title": "Featured Projects",
+    "projects": [
+      {
+        "id": 1,
+        "title": "QR Payment Integration via BCP Bank API",
+        "img": "https://i.imgur.com/eVziGcF.jpeg",
+        "technologies": [
+          "Node"
+        ],
+        "description": "Integration with BCP Bank for QR-based payment processing. A Node.js microservice was developed that receives the payment amount and dynamically generates a QR code ready to be scanned from the user's banking app. The project included thorough testing in the sandbox environment provided by the bank before going live in production."
+      },
+      {
+        "id": 2,
+        "title": "Classified Ads Website: AnunciosBo",
+        "img": "https://i.imgur.com/yhSAQRS.jpeg",
+        "technologies": [
+          "Wordpress",
+          "Php"
+        ],
+        "description": "Development of a classified ads platform with full functionality for posting and searching listings. The site is organized into categories, each with tailored fields and filters that streamline navigation and enhance the overall user experience.",
+        "code_url": "",
+        "preview_url": "https://anunciosbo.com/"
+      },
+      {
+        "id": 3,
+        "title": "English Learning Web App: Stories English",
+        "img": "https://i.imgur.com/3t29xPV.jpeg",
+        "technologies": [
+          "React",
+          "Python",
+          "Django"
+        ],
+        "description": "Personal project. A web application designed to help users learn English through interactive stories. It features a React frontend and a Django REST Framework backend. Currently running as an MVP with 8 interactive stories, blending reading, comprehension, and language practice in a dynamic environment.",
+        "code_url": "",
+        "preview_url": "https://stories.codigosimple.dev/"
+      },
+      {
+        "id": 4,
+        "title": "Barbershop Website: DeibyBarber.com",
+        "img": "https://i.imgur.com/qKkTtrl.jpeg",
+        "technologies": [
+          "React",
+          "Wordpress"
+        ],
+        "description": "Website initially built with React and later migrated to WordPress so the client could manage it independently through a CMS. The migration preserved the original design and functionality. The React source code is publicly available on GitHub.",
+        "code_url": "https://github.com/Andonny1up/deibybarber",
+        "preview_url": "https://deibybarber.com/"
+      }
+    ]
+  },
   "experience": {
     "title": "Work Experience",
     "jobs": [
       {
         "id": "7",
-        "job": "IT Systems Engineering Professor",
-        "company": "Universidad del Valle (BO) - On-site",
-        "time": "Feb 2025 - Present",
-        "description": "Professor for the Operating Systems Administration course."
-      },
-      {
-        "id": "6",
         "job": "Full Stack Web Developer & Technical Support",
         "company": "Tilupay. - Remote",
         "time": "Jan 2025 - Present",
         "description": "Development and maintenance of web applications using React, Ruby on Rails, and Node.js, along with providing remote technical support."
+      },
+      {
+        "id": "6",
+        "job": "IT Systems Engineering Professor",
+        "company": "Universidad del Valle (BO) - On-site",
+        "time": "Feb 2026 - Jun 2026",
+        "description": "Professor for the Operating Systems Administration course."
       },
       {
         "id": "5",

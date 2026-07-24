@@ -1,8 +1,8 @@
 
-const Badge = ({label,className}:{label:string; className: string}) =>{
+const Badge = ({ label, className }: { label: string; className: string }) => {
     return (
-        <span 
-        className={`font-semibold text-[12px] first-letter:text-[12px] py-1 px-2 rounded-lg ${className}`}>
+        <span
+            className={`font-semibold text-[12px] first-letter:text-[12px] py-1 px-2 rounded-lg ${className}`}>
             {label}
         </span>
     )
@@ -12,45 +12,59 @@ type Props = {
     type: 'React' | 'Tailwind CSS' | 'Python' | "Django" | string
 }
 
-const BadgeTecno = ({type}: Props) => {
-    switch(type){
-        case 'React': 
+const BadgeTecno = ({ type }: Props) => {
+    switch (type) {
+        case 'React':
             return (
-                <Badge 
+                <Badge
                     className="text-black bg-yellow-400"
                     label="React"
                 />
             )
-        case 'Tailwind CSS': 
+        case 'Tailwind CSS':
             return (
-                <Badge 
-                        className="text-white bg-blue-900"
-                        label="Tailwind CSS"
-                    />
+                <Badge
+                    className="text-white bg-blue-900"
+                    label="Tailwind CSS"
+                />
             )
-        case 'Django': 
+        case 'Django':
             return (
-                <Badge 
-                        className="text-white bg-gradient-to-r from-green-800 to-green-950"
-                        label="Django"
-                    />
+                <Badge
+                    className="text-white bg-gradient-to-r from-green-800 to-green-950"
+                    label="Django"
+                />
             )
-        case 'Python': 
+        case 'Python':
             return (
-                <Badge 
-                        className="text-white bg-gradient-to-r from-sky-700 to-slate-900"
-                        label="Python"
-                    />
+                <Badge
+                    className="text-white bg-gradient-to-r from-sky-700 to-slate-900"
+                    label="Python"
+                />
+            )
+        case 'Node':
+            return (
+                <Badge
+                    className="text-black bg-gradient-to-r from-yellow-500 to-yellow-500"
+                    label="Node"
+                />
+            )
+        case 'Wordpress':
+            return (
+                <Badge
+                    className="text-white bg-gradient-to-r from-sky-700 to-slate-900"
+                    label="Wordpress"
+                />
             )
         default:
             return (
-                <Badge 
-                        className="text-white bg-black"
-                        label={type}
-                    />
+                <Badge
+                    className="text-white bg-black"
+                    label={type}
+                />
             )
     }
-        
+
 }
 
 export default BadgeTecno

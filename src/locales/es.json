@@ -8,22 +8,73 @@
     "contact_me": "Contáctame",
     "view_cv": "Ver CV"
   },
+  "featured_projects": {
+    "title": "Proyectos Destacados",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Integración de pagos mediante QR vía API del Banco BCP",
+        "img": "https://i.imgur.com/eVziGcF.jpeg",
+        "technologies": [
+          "Node"
+        ],
+        "description": "Integración con el Banco BCP para la generación de pagos mediante código QR. Se desarrolló un microservicio en Node.js que recibe el monto a cobrar y devuelve dinámicamente un código QR listo para ser escaneado desde la aplicación bancaria del usuario. El proceso incluyó pruebas exhaustivas en el entorno sandbox habilitado por el banco antes de su paso a producción."
+      },
+      {
+        "id": 2,
+        "title": "Sitio web de anuncios clasificados: AnunciosBo",
+        "img": "https://i.imgur.com/yhSAQRS.jpeg",
+        "technologies": [
+          "Wordpress",
+          "Php"
+        ],
+        "description": "Desarrollo de una plataforma de anuncios clasificados con funcionalidades para publicar y buscar avisos de forma eficiente. El sitio está organizado en categorías, cada una con campos y filtros específicos que facilitan la navegación y mejoran la experiencia del usuario.",
+        "code_url": "",
+        "preview_url": "https://anunciosbo.com/"
+      },
+      {
+        "id": 3,
+        "title": "Aplicación web para aprendizaje de inglés: Stories English",
+        "img": "https://i.imgur.com/3t29xPV.jpeg",
+        "technologies": [
+          "React",
+          "Python",
+          "Django"
+        ],
+        "description": "Proyecto personal. Aplicación web orientada al aprendizaje del inglés a través de historias interactivas. Cuenta con un frontend desarrollado en React y un backend con Django REST Framework. Actualmente opera como MVP con 8 historias disponibles, combinando lectura, comprensión y práctica del idioma en un entorno dinámico.",
+        "code_url": "",
+        "preview_url": "https://stories.codigosimple.dev/"
+      },
+      {
+        "id": 4,
+        "title": "Sitio web para barbería: DeibyBarber.com",
+        "img": "https://i.imgur.com/qKkTtrl.jpeg",
+        "technologies": [
+          "React",
+          "Wordpress"
+        ],
+        "description": "Sitio web desarrollado inicialmente en React y posteriormente migrado a WordPress para que el cliente pudiera gestionarlo de forma autónoma a través de un CMS. La migración preservó el diseño y la funcionalidad del sitio original. El código fuente de la versión en React está disponible públicamente en GitHub.",
+        "code_url": "https://github.com/Andonny1up/deibybarber",
+        "preview_url": "https://deibybarber.com/"
+      }
+    ]
+  },
   "experience": {
     "title": "Experiencia laboral",
     "jobs": [
       {
         "id": "7",
-        "job": "Docente de Ingeniería de Sistemas Informáticos",
-        "company": "Universidad del Valle (BO) - Presencial",
-        "time": "feb. 2025 - actualidad",
-        "description": "Docente titular de la asignatura Administración de Sistemas Operativos."
-      },
-      {
-        "id": "6",
         "job": "Desarrollador Web Full Stack y Soporte Técnico",
         "company": "Tilupay. - En remoto",
         "time": "ene. 2025 - actualidad",
         "description": "Desarrollo y mantenimiento de aplicaciones web utilizando React, Ruby on Rails y Node.js, además de brindar soporte técnico remoto a clientes."
+      },
+      {
+        "id": "6",
+        "job": "Docente de Ingeniería de Sistemas Informáticos",
+        "company": "Universidad del Valle (BO) - Presencial",
+        "time": "feb. 2026 - Jun. 2026",
+        "description": "Docente titular de la asignatura Administración de Sistemas Operativos."
       },
       {
         "id": "5",
